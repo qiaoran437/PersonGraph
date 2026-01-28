@@ -1,18 +1,7 @@
-# PersonGraphDataSet
+# PersonGraph
 PersonGraphDataSet, nearly 10 thousand person2person relationship facts that build from extraction method, which can be applied to person kg search and inference applications。  人物图谱数据集，近十万的人物关系图谱事实数据库，通过人物关系抽取算法抽取+人工整理得出，可用于人物关系搜索、查询、人物关系多跳问答，以及人物关系推理等场景提供基础数据。
 
-# 项目由来
-关于为什么要开放这个项目，主要有以下几个方面的缘由：  
-1、阶段性总结。以刻画人物复杂关系为核心的网络关系网构建，具有十分重要的现实意义，两年前，带着个人兴趣，发布了一个未完成版的人物关系知识图谱项目(https://github.com/liuhuanyong/PersonRelationKnowledgeGraph)，    尝试采用基于知识库的数据回标,基于远程监督与bootstrapping方法的人物关系抽取，并以此完成基于知识图谱的知识问答等应用。但但由于工作时间为题，一直没能更新。今天，先对该工作的一个结果数据集开放出来，以对之前的项目做一个阶段性的总结。  
-2、数据集空缺。目前，面向中文领域的人物关系抽取数据集，还相对较少，代表性有ccks2019的开放数据集（https://arxiv.org/abs/1907.12801） ，该数据集公开了亲属关系、社交关系、师生关系三大类，现夫、前夫、朋友、恋人等34小类的人物关系数据集。该数据集是面向评测使用的，其所涉及的人物关系类型有限，并且不提供现成可用的人物关系数据。  
-3、应用驱动。当前，面向知识图谱入门级别的知识图谱推理、知识图谱可视化、知识问答、图谱搜索等场景，还缺乏可用的数据集。目前关于人物关系方面的应用，目前看到的，主要是百科类的展示以及搜狗人物图谱（https://www.sogou.com/tupu/person.html） 为代表，虽说是娱乐导向，但目前还缺乏这样的练手的数据和项目。  
-4、应用支撑。基于开放出来的人物关系知识数据，大家可以在此基础上进行多种应用尝试，包括算法训练、知识图谱入门、培训等等，这十分有意义。  
- 
-# 项目构成
-本项目一共包括三个文件，分别记录人物关系元组信息以及关系类型信息：  
-1、big_rel_distribution.txt：大类关系及其分布文件。  
-2、person_rel_kg.data：人物关系图谱数据集文件。    
-3、small_rel_distribution.txt：小类关系及其分布文件      
+数据集来自刘焕勇，中国科学院软件研究所，专注金融、情报两大领域，从事事件抽取、事件演化、情感分析、事理（知识）图谱、常识推理、语言资源构建与应用等研发工作  github项目介绍：https://liuhuanyong.github.io 
 
 # 数据概况
 本数据集，一共包括97,158条人物关系数据，涉及人物71,243个，大类关系102个，小类关系266条，大致的情况具体如下：    
@@ -107,12 +96,5 @@ PersonGraphDataSet, nearly 10 thousand person2person relationship facts that bui
 3、基于本项目，可以支撑包括知识问答、多跳推理、图谱可视化、未知关系推理、数据回标、特征增强、人物推荐、人物建模等多种应用尝试和科学研究工作。    
 4、本项目面向开放文本，采用人物关系抽取模型进行抽取形成，经人工矫正后，可以保证数据的质量。  
 
-# 关于作者
 
-刘焕勇，中国科学院软件研究所，专注金融、情报两大领域，从事事件抽取、事件演化、情感分析、事理（知识）图谱、常识推理、语言资源构建与应用等研发工作。如有自然语言处理、知识图谱、事理图谱、社会计算、语言资源建设等问题或合作，可联系我：  
-1、我的github项目介绍：https://liuhuanyong.github.io  
-2、我的csdn技术博客：https://blog.csdn.net/lhy2014  
-3、我的联系方式: 刘焕勇，中国科学院软件研究所，lhy_in_blcu@126.com.  
-4、我的共享知识库项目：刘焕勇，数据地平线，http://www.openkg.cn/organization/datahorizon.  
-5、我的工业项目：刘焕勇，数据地平线，大规模实时事理学习系统：https://xueji.datahorizon.cn.  
-6、我的工业项目：刘焕勇，数据地平线，面向事件和语义的自然语言处理工具箱：https://nlp.datahorizon.cn  
+
