@@ -1,0 +1,58 @@
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.ant-layout-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.ant-menu-horizontal {
+  border-bottom: none;
+}
+
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-table-wrapper {
+  margin-top: 16px;
+}
+
+.ant-statistic-title {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.ant-statistic-content {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.ant-btn-primary {
+  border-radius: 4px;
+}
+
+.ant-input {
+  border-radius: 4px;
+}
+
+.ant-select-selector {
+  border-radius: 4px !important;
+}
+
+.ant-modal-content {
+  border-radius: 8px;
+}
+
+.ant-tag {
+  border-radius: 4px;
+  padding: 2px 8px;
+}
